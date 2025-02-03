@@ -1,3 +1,3 @@
 
 const { PeerServer } = require("peer");
-const peerServer = PeerServer({port:443, path: "/myapp" });
+const peerServer = PeerServer({port:443, path: "/myapp" ,secure: true});
